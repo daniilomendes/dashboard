@@ -38,6 +38,7 @@ export const ContextProvider = ({ children }) => {
   };
 
   return (
+    // eslint-disable-next-line react/jsx-no-constructed-context-values
     <StateContext.Provider
       value={{
         activeMenu,
