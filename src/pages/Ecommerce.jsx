@@ -1,6 +1,6 @@
 import React from "react";
 import { GoDotFill } from "react-icons/go";
-import { Stacked, Pie, Button, LineChart, SparkLine } from "../components";
+import { Stacked, Button, SparkLine } from "../components";
 import { earningData, SparklineAreaData } from "../data/dummy";
 import { useStateContext } from "../context/ContextProvider";
 
